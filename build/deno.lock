@@ -1,0 +1,31 @@
+{
+  "version": "2",
+  "remote": {},
+  "npm": {
+    "specifiers": {
+      "ayu": "ayu@8.0.1"
+    },
+    "packages": {
+      "@types/chroma-js@2.4.3": {
+        "integrity": "sha512-1ly5ly/7S/YF8aD7MxUQnFOZxdegimuOunJl0xDsLlguu5JrwuSTVGVH3UpIUlh6YauI0RMNT4cqjBonhgbdIQ==",
+        "dependencies": {}
+      },
+      "ayu@8.0.1": {
+        "integrity": "sha512-yuPZ2kZYQoYaPRQ/78F9rXDVx1rVGCJ1neBYithBoSprD6zPdIJdAKizUXG0jtTBu7nTFyAnVFFYuLnCS3cpDw==",
+        "dependencies": {
+          "@types/chroma-js": "@types/chroma-js@2.4.3",
+          "chroma-js": "chroma-js@2.4.2",
+          "nonenumerable": "nonenumerable@1.1.1"
+        }
+      },
+      "chroma-js@2.4.2": {
+        "integrity": "sha512-U9eDw6+wt7V8z5NncY2jJfZa+hUH8XEj8FQHgFJTrUFnJfXYf4Ml4adI2vXZOjqRDpFWtYVWypDfZwnJ+HIR4A==",
+        "dependencies": {}
+      },
+      "nonenumerable@1.1.1": {
+        "integrity": "sha512-ptUD9w9D8WqW6fuJJkZNCImkf+0vdbgUTbRK3i7jsy3olqtH96hYE6Q/S3Tx9NWbcB/ocAjYshXCAUP0lZ9B4Q==",
+        "dependencies": {}
+      }
+    }
+  }
+}

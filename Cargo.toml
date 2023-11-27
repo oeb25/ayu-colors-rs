@@ -1,0 +1,9 @@
+[package]
+name = "ayu-colors-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Oliver Bøving <oliverboving@gmail.com>"]
+repository = "https://github.com/oeb25/ayu-colors-rs"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
